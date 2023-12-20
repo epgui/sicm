@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  sicm-server:
+    container_name: sicm-server
+    image: sritchie/mechanics@sha256:d76842fad45f25ed58688c537c76e8a8c1a7679e92db0edbea344487c979463a
+    entrypoint: ["tail", "-f", "/dev/null"]
